@@ -1,6 +1,7 @@
 /* eslint-disable require-jsdoc */
 const { RpcError } = require("eosjs");
 const { sleep } = require("./utils/sleep");
+const { config } = require("../config");
 
 async function brawl(wallet) {
     try {
@@ -36,7 +37,7 @@ async function brawl(wallet) {
             // handle cooldown error
             if (err.details[0].message.includes("cooldown") == 1) {
                 console.log(err.details[0].message);
-                await sleep(3600000);
+                await sleep(config.WAITING_TIME_MS);
                 return brawl(wallet);
             }
             // handle CPU error
