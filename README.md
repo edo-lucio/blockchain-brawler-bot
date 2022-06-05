@@ -15,7 +15,8 @@ Once you have set everything up you just need to run the index.js and you will b
 You must have an Anchor wallet in order to use this script
 
 # Good to go !
-I will appreciate any comments and critiques.
+I will appreciate any comments and critiques about this project.
+Also you can suggest me other play to earn games that you would like to automate.
 
 Tips are also well regarded ! You can send them to c2crc.wam
 
