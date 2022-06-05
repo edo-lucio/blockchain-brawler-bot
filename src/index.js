@@ -1,6 +1,6 @@
 /* eslint-disable require-jsdoc */
-const { config } = require("../config");
 const { Wallet } = require("./wallet");
+const { config } = require("../config");
 const { brawl } = require("./brawl");
 
 async function main() {
@@ -10,4 +10,5 @@ async function main() {
         brawl(wallet);
     }
 }
+
 main();
