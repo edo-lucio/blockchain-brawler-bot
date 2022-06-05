@@ -17,7 +17,7 @@ You must have an Anchor wallet in order to use this script
 # Good to go !
 I will appreciate any comments and critiques.
 
-Tips are also well regarded ! You can send them to c2rc.wam
+Tips are also well regarded ! You can send them to c2crc.wam
 
 Thanks !
 
