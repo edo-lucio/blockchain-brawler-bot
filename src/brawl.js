@@ -46,6 +46,9 @@ async function brawl(wallet) {
                 await sleep(10000);
                 return brawl(wallet);
             }
+            // handle other cases (eg brawl)
+            await sleep(config.WAITING_TIME_MS);
+            return brawl(wallet);
         }
     }
 }
